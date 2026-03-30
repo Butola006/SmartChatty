@@ -1,5 +1,5 @@
 import { useChatStore } from "../store/useChatStore";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react"; // used to implement scrolling functionality while seeing chats
 
 import ChatHeader from "./ChatHeader";
 import MessageInput from "./MessageInput";

@@ -3,6 +3,15 @@ import User from "../models/user.model.js";
 import bcrypt from "bcryptjs";
 import cloudinary from "../lib/cloudinary.js";
 
+//edit
+process.on("uncaughtException", (err) => {
+  console.error("UNCAUGHT EXCEPTION:", err);
+});
+
+process.on("unhandledRejection", (err) => {
+  console.error("UNHANDLED PROMISE REJECTION:", err);
+});
+
 export const signup = async (req, res) => {
   const { fullName, email, password } = req.body;
   try {
