@@ -29,7 +29,6 @@ This repository contains a production-ready chat app with:
   - `src/store/` Zustand stores for auth, chat, and theme state
   - `public/` static assets
   - `vite.config.js`, `tailwind.config.js`, and `postcss.config.js`
-- `LICENSE` project license file
 - `package.json` root build/start orchestration
 
 ## Local setup
