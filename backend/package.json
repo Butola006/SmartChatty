@@ -1,16 +1,16 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend API for SmartChatty realtime chat app.",
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["backend", "mern", "chat", "socket.io", "api"],
+  "author": "Aditya Singh Butola",
   "type": "module",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "chat-app": "file:..",
